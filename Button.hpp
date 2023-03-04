@@ -90,21 +90,21 @@ public:
     {
         if (show)
         {
-            DIdBtn = Draw::addDrawable(button);
-            DIdTxt = Draw::addDrawable(text);
+            DIdBtn = Draw::addDrawable(button); // regarder sur mon github le repo sfml-Draw (https://github.com/Joris-developement/sfml-Draw)
+            DIdTxt = Draw::addDrawable(text);   // regarder sur mon github le repo sfml-Draw (https://github.com/Joris-developement/sfml-Draw)
             isActive = true;
         }
         else if (!show)
         {
-            Draw::removeDrawable(DIdBtn);
-            Draw::removeDrawable(DIdTxt);
+            Draw::removeDrawable(DIdBtn); // regarder sur mon github le repo sfml-Draw (https://github.com/Joris-developement/sfml-Draw)
+            Draw::removeDrawable(DIdTxt); // regarder sur mon github le repo sfml-Draw (https://github.com/Joris-developement/sfml-Draw)
             isActive = false;
         }
     }
     void updateForDraw()
     {
-        Draw::updateDrawable(DIdBtn, button);
-        Draw::updateDrawable(DIdTxt, text);
+        Draw::updateDrawable(DIdBtn, button); // regarder sur mon github le repo sfml-Draw (https://github.com/Joris-developement/sfml-Draw)
+        Draw::updateDrawable(DIdTxt, text);   // regarder sur mon github le repo sfml-Draw (https://github.com/Joris-developement/sfml-Draw)
     }
 
     bool isActive = false; // si il est afficher a l'ecran

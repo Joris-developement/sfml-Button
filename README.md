@@ -1,5 +1,9 @@
 Voici une class qui permet de crée un button intéractif en c++ avec sfml
 
+# avant utilisation
+
+les endroit il y a Draw:: vous devez soit remplacer par votre systéme ou alors utiliser ma class Draw qui est dans mon repo [sfml-Draw](https://github.com/Joris-developement/sfml-Draw)
+
 # Button
 
 c'est une class pour les boutton avec du text
