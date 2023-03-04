@@ -13,6 +13,10 @@ c'est une class pour les bouton qui remplace le text par une image
 personnellement j'utilise une class qui gére tout les boutton cela est plus facile pour les event voici la function que j'utilise:
 
 ```cpp
+#include <vector>
+#include <variant>
+#include <functional>
+
 vector<variant<Button *, IButton *>> buttons;
 
 void event(RenderWindow &window, Event event)
