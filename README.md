@@ -1,2 +1,1 @@
-# sfml-Button
-voici une class qui crée un button avec sfml
+Voici une class qui permet de crée un button intéractif en c++ avec sfml
